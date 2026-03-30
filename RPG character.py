@@ -22,5 +22,6 @@ def create_character(name,strength,intelligence,charisma):
         + "STR " + strength * full_dot + (10 - strength) * empty_dot + "\n"
         + "INT " + intelligence * full_dot + (10 - intelligence) * empty_dot + "\n"
         + "CHA " + charisma * full_dot + (10 - charisma) * empty_dot)
-create_character('ren',4,2,1)
-print(create_character('ren',4,2,1))
+create_character("rex",4,2,1)
+character = create_character("rex",4,2,1)
+print(character)

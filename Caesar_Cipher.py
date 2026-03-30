@@ -15,5 +15,5 @@ def encrypt(text, shift):
 def decrypt(text, shift):
     return caesar(text, shift, False)
 
-encrypted_text = encrypt('Hello World!', 12)
+encrypted_text = encrypt(input(), 12)
 print(encrypted_text)
